@@ -1,8 +1,0 @@
-Simple instructions:
-
-Drag this .py file to the folder that your Python 2 Libraries reside in;
-Or drag this .py file to the folder where you will save your functions,
-and import the file as a module/library.
-
-This is not a complete library of shipstation functions, it is just a simple
-tool to access the major resources.

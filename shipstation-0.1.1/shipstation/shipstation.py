@@ -1,14 +1,4 @@
 """
-This is a simple Python 2 module for basic shipstation access.
-It was written and tested in IDLE for Python 2.7.6.
-It should work for other Python 2.x versions.
-It will not work on Python 3, as the urllib2 library has been removed
-and the urllib library calls have been drastically changed.
-
-This module will create a connection to shipstation
-and retrieve basic resources from the API.
-It is built for shipsation API version 1.3.
-
 Resources Available:
 Carriers
 Customers
@@ -25,18 +15,12 @@ Warehouses
 
 
 EXAMPLE USE:
-from ShipstationModule import *
+from shipstation import *
 
 connection = shipstation('JSON')
 connection.login(<Username>,<Password>)
 
 myOrders = connection.getOrders()
-## myOrders = connection.getOrders(<Order Number>)
-
-## THESE FUNCTIONS ARE NOT IN THE MODULE.
-## THIS IS ONLY AND EXAMPLE TO SHOW YOU WHAT YOU CAN DO.
-myData = ParseOrders(myOrders) ## ParseOrders is an imaginary function
-WriteDataToExcel(myData) ## WriteDataToExcel is an imaginary function
 """
 
 import urllib2

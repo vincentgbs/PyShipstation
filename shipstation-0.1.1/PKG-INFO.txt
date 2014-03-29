@@ -1,0 +1,9 @@
+Metadata-Version: 1.1
+Name: shipstation
+Version: 0.1.1
+Summary: Connect Python applications with the ShipStation API
+Home-page: https://github.com/vincentgbs/PyShipstation
+Author: vincent hu
+Author-email: None
+License: None
+Description: Shipstation API - Python Client
